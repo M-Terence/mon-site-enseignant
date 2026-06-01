@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion élèves</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Espace élèves</h1>
+    <p>Connecte-toi pour accéder à ta page</p>
+  </header>
+
+  <nav>
+    <a href="../index.html">Accueil</a>
+  </nav>
+
+  <main>
+    <section id="connexion">
+      <h2>Connexion</h2>
+
+      <div id="formulaire">
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" placeholder="Ton prénom">
+
+        <label for="mdp">Mot de passe</label>
+        <input type="password" id="mdp" placeholder="Ton mot de passe">
+
+        <button onclick="seConnecter()">Entrer</button>
+        <p id="erreur" style="display:none; color:red;">Prénom ou mot de passe incorrect.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Site de Terence — P5/P6</p>
+  </footer>
+
+  <script src="connexion.js"></script>
+
+</body>
+
+</html>
