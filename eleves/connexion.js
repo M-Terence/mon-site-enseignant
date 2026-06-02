@@ -1,6 +1,6 @@
 // Liste des élèves — prénom en minuscules, mot de passe, fichier html
 const eleves = [
-  { prenom: "alice", mdp: "fleur23", page: "alice.html" },
+  { prenom: "alice", mdp: "fleur23", page: "2025-2026/alice.html" },
 ];
 
 function seConnecter() {

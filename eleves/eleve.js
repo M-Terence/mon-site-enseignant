@@ -1,7 +1,7 @@
 // Vérification — l'élève doit être passé par la connexion
 const eleveConnecte = sessionStorage.getItem("eleveConnecte");
 if (!eleveConnecte || eleveConnecte !== document.title) {
-  window.location.href = "index.html";
+  window.location.href = "../index.html";
 }
 
 const liste = document.getElementById("liste-remise");
