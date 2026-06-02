@@ -184,3 +184,14 @@ td.conge {
   font-style: italic;
   text-align: center;
 }
+
+/* --- MENTIONS PLANNING --- */
+.modif {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.conseil {
+  color: #707329;
+  font-weight: bold;
+}
