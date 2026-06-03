@@ -2,8 +2,9 @@ const maintenant = new Date();
 const jour = maintenant.getDay();
 const heure = maintenant.getHours();
 
-// Seul jeudi avant 15h affiche la semaine courante
-const estSemaineCourante = (jour === 4 && heure < 15);
+// Semaine courante : du jeudi 15h précédent jusqu'au jeudi 15h suivant
+// = vendredi(5), samedi(6), dimanche(0), lundi(1), mardi(2), mercredi(3), jeudi avant 15h(4)
+const estSemaineCourante = jour === 5 || jour === 6 || jour === 0 || jour === 1 || jour === 2 || jour === 3 || (jour === 4 && heure < 15);
 
 if (estSemaineCourante) {
   document.getElementById("semaine-courante").style.display = "block";
