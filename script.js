@@ -3,7 +3,7 @@ const jour = maintenant.getDay();
 const heure = maintenant.getHours();
 
 // Semaine courante = du jeudi 15h au mercredi 15h suivant
-const estSemaineCourante = (jour === 4 && heure >= 15) || jour === 5 || jour === 6 || jour === 0 || jour === 1 || jour === 2 || (jour === 3 && heure < 15);
+const estSemaineCourante = (jour === 5 && heure >= 15) || jour === 6 || jour === 0 || jour === 1 || jour === 2 || jour === 4 || (jour === 5 && heure < 15);
 
 if (estSemaineCourante) {
   document.getElementById("semaine-courante").style.display = "block";
