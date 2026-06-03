@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+
+  <!-- Tournesol — centre -->
+  <circle cx="50" cy="50" r="14" fill="#c8860a"/>
+
+  <!-- Pétales tournesol -->
+  <ellipse cx="50" cy="22" rx="7" ry="13" fill="#f0b429"/>
+  <ellipse cx="50" cy="78" rx="7" ry="13" fill="#f0b429"/>
+  <ellipse cx="22" cy="50" rx="13" ry="7" fill="#f0b429"/>
+  <ellipse cx="78" cy="50" rx="13" ry="7" fill="#f0b429"/>
+  <ellipse cx="30" cy="30" rx="7" ry="13" fill="#f0b429" transform="rotate(45 30 30)"/>
+  <ellipse cx="70" cy="30" rx="7" ry="13" fill="#f0b429" transform="rotate(-45 70 30)"/>
+  <ellipse cx="30" cy="70" rx="7" ry="13" fill="#f0b429" transform="rotate(-45 30 70)"/>
+  <ellipse cx="70" cy="70" rx="7" ry="13" fill="#f0b429" transform="rotate(45 70 70)"/>
+
+  <!-- Stylo-plume — corps -->
+  <rect x="44" y="30" width="10" height="38" rx="3" fill="#213140"/>
+
+  <!-- Clip doré -->
+  <rect x="51" y="30" width="4" height="28" rx="2" fill="#9BD1F2"/>
+
+  <!-- Pointe -->
+  <polygon points="44,68 56,68 50,82" fill="#707329"/>
+
+  <!-- Fente de la plume -->
+  <line x1="50" y1="70" x2="50" y2="80" stroke="#213140" stroke-width="1.2"/>
+
+  <!-- Embout haut -->
+  <rect x="44" y="28" width="10" height="5" rx="2" fill="#3E4031"/>
+
+</svg>
