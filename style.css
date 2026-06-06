@@ -195,3 +195,11 @@ td.conge {
   color: #707329;
   font-weight: bold;
 }
+
+/* --- Mise en page cote à cote --- */
+#semaine-accueil {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}

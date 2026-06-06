@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
   <link rel="icon" href="favicon.svg">
-  <script src="script.js" defer></script>
+  <script src="accueil.js" defer></script>
 </head>
 
 <body>
@@ -24,61 +24,83 @@
 
   <main>
 
-<section id="planning">
-  <h2>Planning de la semaine</h2>
-  <p><a href="planning/index.html">👉 Accéder au planning</a></p>
-</section>
+    <!-- SECTION PLANNING + JDC CÔTE À CÔTE -->
+    <section id="semaine-accueil">
 
-<section id="jdc">
-  <h2>Journal de classe</h2>
-  <a href="jdc/index.html">👉 Accéder au journal de classe</a>
-</section>
+      <div id="bloc-planning">
+        <h2>Planning de la semaine</h2>
+        <p id="titre-planning"></p>
+        <table id="table-planning">
+          <thead>
+            <tr>
+              <th>Horaire</th>
+              <th>Lundi</th>
+              <th>Mardi</th>
+              <th>Mercredi</th>
+              <th>Jeudi</th>
+              <th>Vendredi</th>
+            </tr>
+          </thead>
+          <tbody id="corps-planning"></tbody>
+        </table>
+        <p><a href="planning/index.html">👉 Voir le planning complet</a></p>
+      </div>
 
-  <h2>Exercices et liens</h2>
+      <div id="bloc-jdc">
+        <h2>Journal de classe</h2>
+        <p id="titre-jdc"></p>
+        <ul id="contenu-jdc"></ul>
+        <p><a href="jdc/index.html">👉 Voir le journal complet</a></p>
+      </div>
 
-  <h3>Français</h3>
-  <div class="deux-colonnes">
-    <div class="colonne">
-      <h4>Liens outils</h4>
-      <ul>
-        <li><a href="https://www.bescherelle.com" target="_blank">Bescherelle en ligne</a></li>
-        <li><a href="https://leconjugueur.lefigaro.fr" target="_blank">Le Conjugueur</a></li>
-      </ul>
-    </div>
-    <div class="colonne">
-      <h4>Mes exercices</h4>
-      <ul>
-        <li><a href="#">Remise en ordre — Les accords</a></li>
-        <li><a href="#">Dictée préparée — Semaine 1</a></li>
-      </ul>
-    </div>
-  </div>
+    </section>
 
-  <h3>Mathématiques</h3>
-  <div class="deux-colonnes">
-    <div class="colonne">
-      <h4>Liens outils</h4>
-      <ul>
-        <li><a href="https://www.mathsenpoche.com" target="_blank">Maths en poche</a></li>
-      </ul>
-    </div>
-    <div class="colonne">
-      <h4>Mes exercices</h4>
-      <ul>
-        <li><a href="#">Exercice — Les fractions</a></li>
-      </ul>
-    </div>
-  </div>
+    <!-- SECTION EXERCICES ET LIENS -->
+    <section id="ressources">
 
-</section>
+      <h2>Exercices et liens</h2>
+
+      <h3>Français</h3>
+      <div class="deux-colonnes">
+        <div class="colonne">
+          <h4>Liens outils</h4>
+          <ul>
+            <li><a href="https://www.bescherelle.com" target="_blank">Bescherelle en ligne</a></li>
+            <li><a href="https://leconjugueur.lefigaro.fr" target="_blank">Le Conjugueur</a></li>
+          </ul>
+        </div>
+        <div class="colonne">
+          <h4>Mes exercices</h4>
+          <ul>
+            <li><a href="#">Remise en ordre — Les accords</a></li>
+            <li><a href="#">Dictée préparée — Semaine 1</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Mathématiques</h3>
+      <div class="deux-colonnes">
+        <div class="colonne">
+          <h4>Liens outils</h4>
+          <ul>
+            <li><a href="https://www.mathsenpoche.com" target="_blank">Maths en poche</a></li>
+          </ul>
+        </div>
+        <div class="colonne">
+          <h4>Mes exercices</h4>
+          <ul>
+            <li><a href="#">Exercice — Les fractions</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
 
   </main>
 
   <footer>
     <p>Site de SAMOY Terence — P5/P6</p>
   </footer>
-
-   <script src="script.js"></script>
 
 </body>
 
